@@ -1,1 +1,1 @@
-Esse é um projeto de calculadora IMC (Índice de Massa  Corporal)
+Esse é um projeto com alguns exercícios em Python.

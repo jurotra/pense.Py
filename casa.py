@@ -1,16 +1,20 @@
-lado = 20
-altura= 5
+print("\n★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★")
+print("This program prints a little house!")
+print("★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★\n\n")
 
-for i in range(lado):
-    if i==0: 
-        print("_"*lado)
-    elif i==5:
-        print(" "*8+"_"*5+" "*7)
-for j in range(altura):
-     print("|"+" "*(lado-2)+"|")
-for i in range(lado):
-    if i==lado-1:
-        print("_"*lado)
+height = int(input("Please enter the height of the house: "))
+width = int(input("Please enter the width of the house: "))
+print("\n")
+
+roof = " "*2 + "/" + " " * (width-4) + "\\" + " "*2 + "\n" + " " + "/" + " " * (width-2) + "\\" + " " + "\n" + "/" + "-" * width + "\\" + "\n" 
+wall = "|" + " " * width + "|" + "\n"
+wall = wall * height
+floor= "-"*(width+2)
+
+
+house = roof + wall + floor
+print(house)
+
 
   
 

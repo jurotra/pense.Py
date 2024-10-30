@@ -1,9 +1,11 @@
 
 print("Let's use the Collatz Conjecture!\n")
 
-def collatz_number(n):
+n = int(input("Enter a number to use in Collatz: "))
 
-    result = [n]
+result=[n]
+
+def collatz_number(n):
 
     while True:  # condition for stopping the function
         if n % 2==0: #even
@@ -14,12 +16,16 @@ def collatz_number(n):
         else:
             n = n*3+1
             result.append(n)
-         
+
     return result
 
 
-n = int(input("Enter a number to use in Collatz: "))
 print(collatz_number(n))
+
+time = list(range(len(result)))
+
+print(time)
+
 
 
 

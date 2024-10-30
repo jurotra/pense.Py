@@ -14,14 +14,13 @@ def collatz_number(n):
         else:
             n = n*3+1
             result.append(n)
-
-            
-        print(result)
-    
+         
+    return result
 
 
 n = int(input("Enter a number to use in Collatz: "))
-collatz_number(n)
+print(collatz_number(n))
+
 
 
 

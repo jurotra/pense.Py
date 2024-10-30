@@ -1,7 +1,7 @@
 
 print("Let's use the Collatz Conjecture!\n")
 
-n = int(input("Enter a number to use in Collatz: "))
+n = int(input("Enter a number to use in Collatz: \n"))
 
 result=[n]
 
@@ -20,11 +20,11 @@ def collatz_number(n):
     return result
 
 
-print(collatz_number(n))
+print("This is the collatz values for ther number", n, ":\n", collatz_number(n))
 
-time = list(range(len(result)))
+time = list(range(len(result))) 
 
-print(time)
+print("\nAnd this how many steps the collatz take to find the number 1:\n", time)
 
 
 

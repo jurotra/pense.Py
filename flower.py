@@ -7,7 +7,6 @@ def polyline(t, n, length, angle):
         t.fd(length)
         t.lt(angle)
 
-
 def arc(t, r, angle):
     arc_length = 2 * math.pi * r * abs(angle) / 360
     n = int(arc_length / 4) + 3

@@ -12,7 +12,7 @@ while True:
   for product in groceries:
      print(product)
  
- #adicionar mais itens
+ #adicionar mais produtos
   question2= input("Would you like to buy anything else?").strip().lower()
   if question2 != "yes":
      print("Thank you for shopping at our market! These are your products:")

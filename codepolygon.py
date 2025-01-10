@@ -8,7 +8,6 @@ def square(t, length):
         t.fd(length)
         t.lt(90)
 
-
 def polyline(t, n, length, angle):
     for i in range(n):
         t.fd(length)
